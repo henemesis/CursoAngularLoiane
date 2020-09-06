@@ -26,6 +26,8 @@
 * Arquivo *app.component.html* --> método "main". É o componente principal da aplicação!
 
 ##  Anotações de Aula...  
-### Cap = Data-binding
+### Cap = Data-binding -- Pacote: data-binding  
 
-* data-binding.component.html --> {{ url }} == guia de boas práticas do Angular.
+* data-binding.component.html --> {{ url }} == guia de boas práticas do Angular.  
+  
+* **Property Binding:** É o valor do component para o template  
