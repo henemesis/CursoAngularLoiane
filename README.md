@@ -12,7 +12,7 @@
 * Data Binding;
 * Injeção de Depedências;
 
-## Anotações de Aula...
+## Anotações de Aula...  
 * Interpolação: projeto helloWorld --> arquivo *cursos.component.html*  
   
 * Observar arquivo *cursos.component.ts* --> anotações sobre o TS  
@@ -25,9 +25,7 @@
   
 * Arquivo *app.component.html* --> método "main". É o componente principal da aplicação!
 
-##  Anotações de Aula...  
-### Cap = Data-binding -- Pacote: data-binding  
-
+## Cap 02 Aula 01 = Data-binding -- Pacote: data-binding  
 * data-binding.component.html --> {{ url }} == guia de boas práticas do Angular.  
   
 * **Property Binding:** É o valor do component para o template  
