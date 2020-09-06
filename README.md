@@ -24,3 +24,8 @@
 * Arquivo *app.component.html* --> mais anotações sobre interpolação  
   
 * Arquivo *app.component.html* --> método "main". É o componente principal da aplicação!
+
+##  Anotações de Aula...  
+### Cap = Data-binding
+
+* data-binding.component.html --> {{ url }} == guia de boas práticas do Angular.
