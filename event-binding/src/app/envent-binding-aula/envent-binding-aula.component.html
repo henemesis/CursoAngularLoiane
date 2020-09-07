@@ -1,0 +1,38 @@
+<section class="event-binding">
+
+    <article>
+        <h3>Event binding</h3>
+        <div>
+            <button (click)="botaoClicado()" class="btn btn-primary">
+                Me clique!
+            </button>
+
+            <br><br>
+
+            <!-- $ = esse símbolo faz referência ao envento (event)-->
+            <!-- <input type="text" (keyup)="onKeyUp($event)"
+            (keyup.enter)="salvarValor($event.target.value)"
+            (blur)="salvarValor($event.target.value)"
+            #campoInput> -->
+
+            <!-- UTILIZANDO VARIAVEL NO CONTEXTO PARA A FUNCIONALIDADE DO INPUT-->
+            <input type="text" (keyup)="onKeyUp($event)"
+            (keyup.enter)="salvarValor(campoInput.value)"
+            (blur)="salvarValor(campoInput.value)"
+            #campoInput>
+
+            <p>Valor Atual: {{ valorAtual }} </p>
+            <p>Valor Salvo: {{ valorSalvo }} </p>
+
+            <br><br>
+
+            <span (mouseover)="onMouseOverOut()" (mouseout)="onMouseOverOut()" [class.highlight]="isMouseOver">
+                Passe o mouse sobre mim
+            </span>
+
+
+        </div>
+    </article>
+
+
+</section>
