@@ -1,0 +1,29 @@
+<section class="two-way-binding do Meu Form">
+    <article>
+        <h3>Two-way data binding do Meu Form</h3>
+
+        <!-- Aqui usamos event-binding em (input)="... -->
+
+        <div>
+            <input type="text" [value]="nome" (input)="nome = $event.target.value">
+
+            <!-- Trabalhando os objetos com ngModel (ainda sem o two-way databinding) -->
+            <br><br>
+            <input type="text" [ngModel]="nome" (ngModelChange)="nome = $event" />
+
+            <br><br>
+            <input type="text" [(ngModel)]="nome" />
+
+            <!-- Utilizando somente interpolação! -->
+            <p>Você digitou: {{nome}}</p>
+        </div>
+
+        <div>
+            <p>Meu nome é {{pessoa.nome}} e tenho {{pessoa.idade}} anos de idade. </p>
+
+            <input type="text" [(ngModel)]="pessoa.nome"><br><br>
+            <input type="text" [(ngModel)]="pessoa.idade">
+        </div>
+
+    </article>
+</section>
