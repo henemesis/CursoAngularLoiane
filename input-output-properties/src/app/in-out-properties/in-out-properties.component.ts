@@ -9,8 +9,13 @@ export class InOutPropertiesComponent implements OnInit {
 
   nomeDoCurso: string = 'Angular';
 
+  valorInicial = 15;
 
   constructor() { }
+
+  onMudouValor(evento){
+    console.log(evento.novoValor);
+  }
 
   ngOnInit(): void {
   }
