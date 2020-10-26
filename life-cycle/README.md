@@ -8,5 +8,12 @@
   
 * `ngDoCheck`: verificado a cada ciclo de verificação de mudança;    
   
-* `ngAfterContentInit`: executado depois de inserir conteúdo externo na view; 
+* `ngAfterContentInit`: executado depois de inserir conteúdo externo na view;  
+  
+* `ngAfterContentChecked`: executado a cada verificação de conteúdo inserido;  
+  
+* `ngAfterViewChecked`: primeiro faz uma verificação do conteúdo inserido na view / depois, verificação no conteúdo filho;  
+  
+* `ngOnDestroy`: antes da diretiva / component a ser destruído;  
+  
   
