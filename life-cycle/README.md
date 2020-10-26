@@ -17,3 +17,7 @@
 * `ngOnDestroy`: antes da diretiva / component a ser destruído;  
   
   
+## `ngOnInit`  
+  
+  Responsável por fazer a chamada no servidor, obtendo os dados para mostrar no template do nosso componente.  
+  
