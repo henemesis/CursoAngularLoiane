@@ -29,3 +29,5 @@ Usado principalmente na mudança dos input-properties.
 ## OBS:
 
 Os life cycles hooks são interfaces e precisam ser inicializados na classe (`export class` logo após implements); 
+  
+Todas as interfaces do ciclo de vida pertencem a biblioteca `@angularCore`
