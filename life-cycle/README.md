@@ -19,5 +19,13 @@
   
 ## `ngOnInit`  
   
-  Responsável por fazer a chamada no servidor, obtendo os dados para mostrar no template do nosso componente.  
+Responsável por fazer a chamada no servidor, obtendo os dados para mostrar no template do nosso componente.  
   
+## `ngOnChanges`  
+  
+Usado principalmente na mudança dos input-properties.  
+  
+
+## OBS:
+
+Os life cycles hooks são interfaces e precisam ser inicializados na classe (`export class` logo após implements); 
