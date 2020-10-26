@@ -2,7 +2,7 @@
   
 ## Eventos do Ciclo de Vida do Angular  
     
-* `ngOnChanges`: acontece antes do `ngOnInit` e quando o valor do property-binding é atualizado;  
+* `ngOnChanges`: acontece antes do `ngOnInit` e quando o valor do `property-binding` é atualizado;  
   
 * `ngOnInit`: executado quando o component é iniciado;  
   
