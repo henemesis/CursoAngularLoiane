@@ -31,3 +31,9 @@ Usado principalmente na mudança dos input-properties.
 Os life cycles hooks são interfaces e precisam ser inicializados na classe (`export class` logo após implements); 
   
 Todas as interfaces do ciclo de vida pertencem a biblioteca `@angular/core`
+
+## Algumas Considerações  
+  
+* Se tenho `Input-roperties` -> **Não** utilizo o `ngOnInit`;  
+  
+* Caso o contrário -> `ngOnChanges` == utilizo quando há `input-properties`;  
