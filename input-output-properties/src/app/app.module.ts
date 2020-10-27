@@ -21,6 +21,9 @@ import { CicloComponent } from './ciclo/ciclo.component';
     AppRoutingModule
   ],
   providers: [],
+  exports: [
+    OutputPropertyComponent
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,4 +1,4 @@
-import { Output } from '@angular/core';
+import {ElementRef, Output, ViewChild} from '@angular/core';
 import { Component, EventEmitter, Input, OnInit } from '@angular/core';
 
 @Component({
@@ -12,17 +12,28 @@ export class OutputPropertyComponent implements OnInit {
 
   @Output() mudouValor = new EventEmitter();
 
+  @ViewChild('campoInput') campoValorInput: ElementRef;
+
   incrementa(){
-    this.valor++
+    //MODIFICANDO O VALOR NA REFERÊNCIA DO campoValorInput
+    this.campoValorInput.nativeElement.value++;
+
+    //console.log utilizado para verificar o retorno do campoValorInput, que ao invés de retornar um HTMLElement retorna
+    //um ElementRef
+    // console.log(this.campoValorInput);
+    // this.valor++
     this.mudouValor.emit({novoValor: this.valor});
   }
 
   decrementa(){
     if (this.valor > 0) {
-      this.valor--;
+      //MODIFICANDO O VALOR NA REFERÊNCIA DO campoValorInput
+      this.campoValorInput.nativeElement.value--;
+
+      // this.valor--;
       this.mudouValor.emit({novoValor: this.valor});
     }
-    
+
   }
 
   constructor() { }
