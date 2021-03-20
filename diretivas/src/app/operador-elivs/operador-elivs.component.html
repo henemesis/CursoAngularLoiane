@@ -1,0 +1,6 @@
+<p> Descrição: {{ tarefa.desc }}</p>
+<!--<p> Descrição: {{ tarefa.responsavel }}</p>-->
+<!--<p> Descrição: {{ tarefa.responsavel.nome }}</p> &lt;!&ndash;No primeiro caso estudado, deu erro. Propriedade não
+recebe nulo &ndash;&gt;-->
+<!--<p> Descrição: {{ tarefa.responsavel != null ? tarefa.responsavel.nome : '' }}</p>-->
+<p> Descrição: {{ tarefa.responsavel?.usuario?.nome }}</p> <!-- Operador Elvis alinhado-->

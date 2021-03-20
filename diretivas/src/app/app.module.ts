@@ -9,6 +9,7 @@ import { DiretivaForComponent } from './diretiva-for/diretiva-for.component';
 import { DiretivaNgclassComponent } from './diretiva-ngclass/diretiva-ngclass.component';
 import { DiretivaNgstyleComponent } from './diretiva-ngstyle/diretiva-ngstyle.component';
 import {FormsModule} from "@angular/forms";
+import { OperadorElivsComponent } from './operador-elivs/operador-elivs.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import {FormsModule} from "@angular/forms";
     DiretivaForComponent,
     DiretivaNgclassComponent,
     DiretivaNgstyleComponent,
+    OperadorElivsComponent,
   ],
     imports: [
         BrowserModule,
