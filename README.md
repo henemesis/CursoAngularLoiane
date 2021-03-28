@@ -29,3 +29,24 @@
 * data-binding.component.html --> {{ url }} == guia de boas práticas do Angular.  
   
 * **Property Binding:** É o valor do component para o template  
+
+## Cap 4 Aula 10 - Criando uma diretiva de atributo: ElementRef e Renderer
+  
+O que é uma **diretiva** == É um componente sem template. Tratamos somente a lógica!  
+  
+* Diretivas estruturais = ngIf, ngFor, ngSwitch;  
+  
+* Diretivas de atributos = ngStyle, ngClass, ngContent;  
+  
+
+A **diretiva** é um componente que poderá ser usada em **toda a aplicação**;  
+
+Quando não souber qual atributo precisa-se alterar, basta utilizar um **console.log** para encontrar o elemento  
+a ser modificado!  
+  
+**ElementRef**: faz acesso direto as tags, o que representa vulnerabilidade de segurança
+na aplicação.  
+  
+No Angular 11.2.2 utilizamos o **Render2** no lugar do Render e **.setStyle** no lugar de this._renderer.
+**setElementStyle**
+
