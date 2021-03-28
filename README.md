@@ -50,3 +50,4 @@ na aplicação.
 No Angular 11.2.2 utilizamos o **Render2** no lugar do Render e **.setStyle** no lugar de this._renderer.
 **setElementStyle**
 
+* @ --> representa um metadados do Angular.  
