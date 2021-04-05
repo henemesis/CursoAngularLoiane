@@ -51,3 +51,10 @@ No Angular 11.2.2 utilizamos o **Render2** no lugar do Render e **.setStyle** no
 **setElementStyle**
 
 * @ --> representa um metadados do Angular.  
+
+
+## Cap 4 Aula 11 - Diretivas: HostListener e HostBinding  
+  
+* O **HostListener:* ficará escutando evento no hospedeiro (um código HTML) da diretiva  
+
+* O **HostBind:* permite o bind (associação) de um atributo ou uma classe do HTML para uma variável    
