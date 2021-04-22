@@ -58,3 +58,13 @@ No Angular 11.2.2 utilizamos o **Render2** no lugar do Render e **.setStyle** no
 * O **HostListener:** ficará escutando evento no hospedeiro (um código HTML) da diretiva  
 
 * O **HostBind:** permite o bind (associação) de um atributo ou uma classe do HTML para uma variável    
+
+
+## Cap 4 Aula 12 - Diretivas: Input e Property Binding
+
+* Relembrnado: **Componentes** são **diretivas** com **templates!**  
+  
+* Relembrnado: **Diretivas** são **componentes** **sem**  templates!  
+
+* **Life Cicle Rooks** &nbsp; --> Válidos também para as **diretivas** &nbsp; --> exemplo: **ngOnInit( ){ }**
+* O ****     
